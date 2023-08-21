@@ -1,0 +1,133 @@
+.BtnCommencer{
+    width: 6em;
+    height: 3em;
+    font-size: 2em;
+    cursor: pointer;
+}
+.BtnCommencer:hover{
+    transition: .5s;
+    background-color: red;
+}
+.BtnCommencer:not(:hover){
+    transition: .5s;
+    background-color: aqua;
+}
+
+.AlignerTTCentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CentreH{
+    margin: auto;
+}
+.CentreV{
+    margin-top: 1em;
+}
+.none{
+    display: none;
+}
+.ConcepteurPerso{
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.Ens{
+    position: relative;
+    background-color: red;
+    width: 98%;
+    height: 80%;
+}
+.SousEns{
+    background-color: blueviolet;
+    width: 65%;
+    height: 100%;
+    position: absolute;
+}
+.Desc{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    background-color: aqua;
+    height: 5em;
+}
+.slider-container{
+    background-color: chartreuse;
+    width: 38em;
+    height: 7em;
+    position: relative;
+}
+.slider{
+    display: flex;
+    height: 100%;
+    width: calc(8*38em);
+}
+.slide{
+    background-color: yellowgreen;
+    width: 38em;
+    height: 100%;
+}
+.Texte{
+    display: inline;
+    font-size: 2.5em;
+}
+.EnsDesc{
+    width: 75%;
+}
+.fleche{
+    background-color: chocolate;
+    position: absolute;
+    background-image: url(../images/flèche.webp);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 6em;
+    width: 2.5em;
+    z-index: 1;
+    top: 0;
+    margin-top: .5em;
+    cursor: pointer;
+}
+.fleche-droite{
+    right: .5em;
+}
+.fleche-droite:hover{
+    transition: .5s;
+    transform: rotate(180deg) scale(1.05);
+}
+.fleche-droite:not(:hover){
+    transition: .5s;
+    transform: rotate(180deg);
+}
+.fleche-gauche{
+    left: .5em;
+}
+
+.BtnSuiv{
+    position: absolute;
+    background-color: yellow;
+    width: 5em;
+    font-size: 2.5em;
+    bottom: .5em;
+    right: 1em;
+    cursor: pointer;
+}
+.BtnRet{
+    position: absolute;
+    background-color: yellow;
+    width: 5em;
+    font-size: 2.5em;
+    bottom: .5em;
+    left: 1em;
+    cursor: pointer;
+}
+.Btn:hover{
+    transition: .5s;
+    transform: scale(1.05);
+}
+.Btn:not(:hover){
+    transition: .5s;
+}
