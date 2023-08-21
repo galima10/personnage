@@ -1,0 +1,61 @@
+.body{
+    overflow: hidden;
+}
+
+.ConcepteurAvatar{
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.BtnRetour{
+    width: 5em;
+    height: 5em;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.EnsPerso{
+    background-color: red;
+    z-index: 1;
+}
+.EnsPersoPos1{
+    width: 13em;
+    height: 14.5em;
+    position: absolute;
+    top: 22.5em;
+    left: 2.5em;
+}
+.EnsPersoPos2{
+    width: 13em;
+    height: 14.5em;
+    position: fixed;
+    top: 10.5em;
+    left: 9.5em;
+    transform: scale(2.3);
+}
+
+.ZIdex1{
+    z-index: 1;
+}
+.ZIdex2{
+    z-index: 2;
+}
+
+
+.BarreChoix1{
+    background-color: aqua;
+    position: absolute;
+    width: 48em;
+    height: 5em;
+    right: 0;
+}
+/* .Choix{
+    background-color: chartreuse;
+    width: ;
+} */

@@ -4,8 +4,770 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Magali</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="css/avatar.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+    <h1>Créez votre fiche peronnage</h1>
+
+    <div class="AvatarChoisirClasse ZIdex1">
+        <div class="Texte_AvatarChoisirClasse">
+            Choisissez d'abord le Sexe et la Classe
+        </div>
+    </div>
+
+    <!-- <div class="EnsPerso EnsPersoPos1 ZIdex2">
+        
+    </div> -->
+
+    <div class="ConcepteurAvatar none">
+        <div class="BtnRetour">
+
+        </div>
+        <div class="BarreChoix1">
+            <div class="Choix Choix1">
+                <div class="TexteChoix">Espèce</div>
+            </div>
+        </div>
+        
+    </div>
+
     
+
+    <div class="EnsTitreBtn">
+        <div class="Titre1">
+            <h1>Bouton "cacher tous les boutons"</h1>
+        </div>
+        <div class="Titre2">
+            <h1>Bouton Réinitialiser</h1>
+        </div>
+    </div>
+
+    <div class="EnsBtn">
+        <div class="BtnCache">
+
+        </div>
+        <div class="BtnReinitialiser">
+            
+        </div>
+    </div>
+
+    </div>
+
+    <div class="FichePerso">
+        <div class="TitreFichePerso">
+            <div class="TexteTitreFichePerso">
+                Fiche de personnage
+            </div>
+            <div class="BAleaTitre BA1"></div>
+        </div>
+        <div class="TexteBtnRndm none">
+            <div class="t_TexteBtnRndm">
+                Choisissez d'abord le Sexe
+            </div>
+        </div>
+        <div class="EnsNumero">
+            <div class="TexteNumero">
+                Candidat n°
+            </div>
+            <div class="TexteNumero TexteNumero1">
+                
+            </div>
+        </div>
+        <div class="EnsFichePerso">
+            <div class="ContenuFichePerso">
+                <div class="Ens1">
+
+                    <div class="EnsAvatar">
+                        <div class="EnsPersoAvatar">
+                            <div class="CadrePersoAvatar">
+                                
+                            </div>
+                        </div>
+                        <div class="EnsBtnAvatar">
+                            <div class="AvBtnModifier">
+                                <div class="TexteAvBtnModifier">
+                                    Modifier
+                                </div>
+                            </div>
+                            <div class="AvBtnAlea">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="EnsIdentité">
+                        <div class="ContenuIdentité">
+                            <div class="EnsNom">
+                                <div class="ContenuNom">
+                                <div class="BtnNomValid none">Valider</div>
+                                <div class="BtnNomModifier">Modifier</div>
+                                <input type="text" class="InputNom none">
+                                <div class="TexteNom">Nom</div>
+                            </div>
+                            </div>
+
+                            <div class="EnsSexe" style="margin-top: .5em;">
+                                <div class="TexteSexe">
+                                    Sexe :
+                                </div>
+                                <div class="Homme">
+                                    <div class="SymboleH">
+                                        ♂
+                                    </div>
+                                </div>
+                                <div class="Femme">
+                                    <div class="SymboleF">
+                                        ♀
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="EnsClasse" style="margin-top: .5em;">
+                                <div class="TexteClasse">Classe</div>
+                            </div>
+
+                            <div class="SliderClasse slider-container" id="classe-slider" style="margin-top: .3em;">
+                                <div class="Slider1 Slider1_pos1 slider">
+                                    <div class="Slides1 S1_slide1">
+                                        <div class="TexteSlide TexteSlide1">
+                                            Guerrier
+                                        </div>
+                                    </div>
+                                    <div class="Slides1 S1_slide2">
+                                        <div class="TexteSlide">
+                                            Mage
+                                        </div>
+                                    </div>
+                                    <div class="Slides1 S1_slide3">
+                                        <div class="TexteSlide">
+                                            Voleur
+                                        </div>
+                                    </div>
+                                    <div class="Slides1 S1_slide4">
+                                        <div class="TexteSlide">
+                                            Archer
+                                        </div>
+                                    </div>
+                                    <div class="Slides1 S1_slide5">
+                                        <div class="TexteSlide">
+                                            Nécromancien
+                                        </div>
+                                    </div>
+                                    <div class="Slides1 S1_slide6">
+                                        <div class="TexteSlide">
+                                            Prêtre
+                                        </div>
+                                    </div>
+                                    <div class="Slides1 S1_slide7">
+                                        <div class="TexteSlide">
+                                            Cowboy
+                                        </div>
+                                    </div>
+                                    <div class="Slides1 S1_slide8">
+                                        <div class="TexteSlide">
+                                            Sorcier
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Btn BtnG G1">
+                                    <div class="flèche fleche-gauche">
+                                        ◄
+                                    </div>
+                                </div>
+                                <div class="Btn BtnD D1">
+                                    <div class="flèche fleche-droite">
+                                        ►
+                                    </div>
+                                </div>
+                                <div class="BAlea1 BA3 random-slider" style="position: absolute; left: 200px">
+                                
+                                </div>
+                            </div>
+
+                            <div class="EnsAge" style="margin-top: .5em;">
+                                <div class="TexteAge">
+                                    Âge
+                                </div>
+                                <div class="ChgerAge">
+                                    <div class="AjouterAge">+</div>
+                                    <div class="RetierAge">-</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="EnsBtnAleatoire">
+                        <div class="ContenuBtnAleatoire">
+
+                            <div class="BAlea1 BA2" style="margin-top: .25em;">
+
+                            </div>
+                            <div class="BAlea1 BA13" style="margin-top: 1em;">
+
+                            </div>
+                            
+                            <div class="BAlea1 BA4" style="margin-top: 1em;">
+                                
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="Ens2">
+                    <div class="TitreEns2">
+                        <div class="TexteTitreEns2">Compétences</div>
+                    </div>
+                    <div class="SousEns1">
+                        <div class="SousEnsGauche">
+                            <div class="EnsCompActive">
+                                <div class="TitreCompActive">
+                                    <div class="TexteTitreCompActive">
+                                        Actives
+                                    </div>
+                                </div>
+                                <div class="ContenuCompActive">
+                                    <div class="SliderComp">
+                                        <div class="Slider2 Slider2_pos1">
+                                            <div class="Slides2 S2_slide1">
+                                                <div class="TexteSlide2 CA1">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides2 S2_slide2">
+                                                <div class="TexteSlide2 CA2">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides2 S2_slide3">
+                                                <div class="TexteSlide2 CA3">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides2 S2_slide4">
+                                                <div class="TexteSlide2 CA4">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides2 S2_slide5">
+                                                <div class="TexteSlide2 CA5">
+                                                    None
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnG G2">
+                                            <div class="flèche">
+                                                ◄
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnD D2">
+                                            <div class="flèche">
+                                                ►
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="SliderComp" style="margin-top: 2em;">
+                                        <div class="Slider4 Slider4_pos1">
+                                            <div class="Slides4 S4_slide1">
+                                                <div class="TexteSlide2 CA6">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides4 S4_slide2">
+                                                <div class="TexteSlide2 CA7">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides4 S4_slide3">
+                                                <div class="TexteSlide2 CA8">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides4 S4_slide4">
+                                                <div class="TexteSlide2 CA9">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides4 S4_slide5">
+                                                <div class="TexteSlide2 CA10">
+                                                    None
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnG G4">
+                                            <div class="flèche">
+                                                ◄
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnD D4">
+                                            <div class="flèche">
+                                                ►
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="EnsBtnAlea1">
+
+                                <div class="BAlea2 BA5" style="margin-top: 6.6em;">
+
+                                </div>
+                                <div class="BAlea2 BA6" style="margin-top: 4.2em;">
+            
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="SousEnsDroite">
+                            <div class="EnsCompPassive">
+                                <div class="TitreCompPassive">
+                                    <div class="TexteTitreCompPassive">
+                                        Passives
+                                    </div>
+                                </div>
+                                <div class="ContenuCompPassive">
+
+                                    <div class="SliderComp">
+                                        <div class="Slider3 Slider3_pos1">
+                                            <div class="Slides3 S3_slide1">
+                                                <div class="TexteSlide2 CP1">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides3 S3_slide2">
+                                                <div class="TexteSlide2 CP2">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides3 S3_slide3">
+                                                <div class="TexteSlide2 CP3">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides3 S3_slide4">
+                                                <div class="TexteSlide2 CP4">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides3 S3_slide5">
+                                                <div class="TexteSlide2 CP5">
+                                                    None
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnG G3">
+                                            <div class="flèche">
+                                                ◄
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnD D3">
+                                            <div class="flèche">
+                                                ►
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="SliderComp slider-container" id="comp-pass-2-slider" style="margin-top: 2em;">
+                                        <div class="Slider5 Slider5_pos1 slider">
+                                            <div class="Slides5 S5_slide1">
+                                                <div class="TexteSlide2 CP6">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides5 S5_slide2">
+                                                <div class="TexteSlide2 CP7">
+                                                    Nonea
+                                                </div>
+                                            </div>
+                                            <div class="Slides5 S5_slide3">
+                                                <div class="TexteSlide2 CP8">
+                                                    Nonez
+                                                </div>
+                                            </div>
+                                            <div class="Slides5 S5_slide4">
+                                                <div class="TexteSlide2 CP9">
+                                                    Nonee
+                                                </div>
+                                            </div>
+                                            <div class="Slides5 S5_slide5">
+                                                <div class="TexteSlide2 CP10">
+                                                    Noner
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnG G5">
+                                            <div class="flèche fleche-gauche">
+                                                ◄
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnD D5">
+                                            <div class="flèche fleche-droite">
+                                                ►
+                                            </div>
+                                        </div>
+                                        <div class="BAlea2 BA8 random-slider " style="position: absolute; left: 110px">
+            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="EnsBtnAlea1">
+
+                                <div class="BAlea2 BA7" style="margin-top: 6.6em;">
+
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="CompChoisirClasse">
+                    <div class="Texte_CompChoisirClasse">
+                        Choisissez d'abord la Classe
+                    </div>
+                </div> -->
+
+                <div class="Ens3">
+                    <div class="TitreEns3">
+                        <div class="TexteTitreEns3">Description personnage</div>
+                    </div>
+                    <div class="SousEn2">
+                        <div class="SousEnsGauche">
+                            <div class="EnsCaractere">
+                                <div class="TitreCaractere">
+                                    <div class="TexteTitreCaractere">
+                                        Caractère
+                                    </div>
+                                </div>
+                                <div class="ContenuCaractere">
+
+                                    <div class="TitreQualite">
+                                        <div class="TexteTireQualite">
+                                            Qualité
+                                        </div>
+                                    </div>
+
+                                    <div class="SliderDesc slider-container" style="margin-top: 1em;">
+                                        <div class="Slider6 Slider6_pos1 slider">
+                                            <div class="Slides6 S6_slide1">
+                                                <div class="TexteSlide TexteSlide5">
+                                                    Charismatique
+                                                </div>
+                                            </div>
+                                            <div class="Slides6 S6_slide2">
+                                                <div class="TexteSlide">
+                                                    Courageux
+                                                </div>
+                                            </div>
+                                            <div class="Slides6 S6_slide3">
+                                                <div class="TexteSlide">
+                                                    Altruiste
+                                                </div>
+                                            </div>
+                                            <div class="Slides6 S6_slide4">
+                                                <div class="TexteSlide">
+                                                    Intelligent
+                                                </div>
+                                            </div>
+                                            <div class="Slides6 S6_slide5">
+                                                <div class="TexteSlide">
+                                                    Déterminé
+                                                </div>
+                                            </div>
+                                            <div class="Slides6 S6_slide6">
+                                                <div class="TexteSlide">
+                                                    Honnête
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnG G6 ">
+                                            <div class="flèche fleche-gauche">
+                                                ◄
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnD D6">
+                                            <div class="flèche fleche-droite">
+                                                ►
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="TitreDefaut">
+                                        <div class="TexteTireDefaut">
+                                            Défaut
+                                        </div>
+                                    </div>
+
+                                    <div class="SliderDesc" style="margin-top: 1.5em;">
+                                        <div class="Slider7 Slider7_pos1">
+                                            <div class="Slides7 S7_slide1">
+                                                <div class="TexteSlide TexteSlide6">
+                                                    Impulsif
+                                                </div>
+                                            </div>
+                                            <div class="Slides7 S7_slide2">
+                                                <div class="TexteSlide">
+                                                    Méfiant
+                                                </div>
+                                            </div>
+                                            <div class="Slides7 S7_slide3">
+                                                <div class="TexteSlide">
+                                                    Têtu
+                                                </div>
+                                            </div>
+                                            <div class="Slides7 S7_slide4">
+                                                <div class="TexteSlide">
+                                                    Égoïste
+                                                </div>
+                                            </div>
+                                            <div class="Slides7 S7_slide5">
+                                                <div class="TexteSlide">
+                                                    Impatient
+                                                </div>
+                                            </div>
+                                            <div class="Slides7 S7_slide6">
+                                                <div class="TexteSlide">
+                                                    Perfectionniste
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnG G7">
+                                            <div class="flèche">
+                                                ◄
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnD D7">
+                                            <div class="flèche">
+                                                ►
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="EnsBtnAlea1">
+
+                                <div class="BAlea2 BA9" style="margin-top: 9.1em;">
+
+                                </div>
+                                <div class="BAlea2 BA10" style="margin-top: 6.2em;">
+            
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="SousEnsDroite">
+                            <div class="EnsPalmares">
+                                <div class="TitrePalmares">
+                                    <div class="TexteTitrePalmares">
+                                        Palmarès
+                                    </div>
+                                </div>
+                                <div class="ContenuPalmares">
+
+                                    <div class="TitreExploit">
+                                        <div class="TexteTireExploit">
+                                            Exploit
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="SliderDesc" style="margin-top: 1em;">
+                                        <div class="Slider8 Slider8_pos1">
+                                            <div class="Slides8 S8_slide1">
+                                                <div class="TexteSlide2 E1">
+                                                    None
+                                                </div>
+                                            </div>
+                                            <div class="Slides8 S8_slide2">
+                                                <div class="TexteSlide2 E2">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="Slides8 S8_slide3">
+                                                <div class="TexteSlide2 E3">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="Slides8 S8_slide4">
+                                                <div class="TexteSlide2 E4">
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="Slides8 S8_slide5">
+                                                <div class="TexteSlide2 E5">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnG G8">
+                                            <div class="flèche">
+                                                ◄
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnD D8">
+                                            <div class="flèche">
+                                                ►
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="TitreStatut">
+                                        <div class="TexteTireStatut">
+                                            Statut
+                                        </div>
+                                    </div>
+
+                                    <div class="SliderDesc" style="margin-top: 1.5em;">
+                                        <div class="Slider9 Slider9_pos1">
+                                            <div class="Slides9 S9_slide1">
+                                                <div class="TexteSlide TexteSlide4">
+                                                    Citoyen
+                                                </div>
+                                            </div>
+                                            <div class="Slides9 S9_slide2">
+                                                <div class="TexteSlide">
+                                                    Noble
+                                                </div>
+                                            </div>
+                                            <div class="Slides9 S9_slide3">
+                                                <div class="TexteSlide">
+                                                    Vagabond
+                                                </div>
+                                            </div>
+                                            <div class="Slides9 S9_slide4">
+                                                <div class="TexteSlide">
+                                                    Réfugié
+                                                </div>
+                                            </div>
+                                            <div class="Slides9 S9_slide5">
+                                                <div class="TexteSlide">
+                                                    Criminel
+                                                </div>
+                                            </div>
+                                            <div class="Slides9 S9_slide6">
+                                                <div class="TexteSlide">
+                                                    Ermite
+                                                </div>
+                                            </div>
+                                            <div class="Slides9 S9_slide7">
+                                                <div class="TexteSlide">
+                                                    Mercenaire
+                                                </div>
+                                            </div>
+                                            <div class="Slides9 S9_slide8">
+                                                <div class="TexteSlide">
+                                                    Légende
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnG G9">
+                                            <div class="flèche">
+                                                ◄
+                                            </div>
+                                        </div>
+                                        <div class="Btn BtnD D9">
+                                            <div class="flèche">
+                                                ►
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="EnsBtnAlea1">
+
+                                <div class="BAlea2 BA11" style="margin-top: 9.1em;">
+
+                                </div>
+                                <div class="BAlea2 BA12" style="margin-top: 6.2em;">
+            
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="DescComp">
+                <div class="TitreDescComp">
+                    <div class="TexteTitreDescComp">
+                        Description Compétences
+                    </div>
+                </div>
+                <div class="ContenuEnsComp">
+                    <div class="EnsCompGauche">
+                        <div class="TitreCA">
+                            <div class="TexteTitreC">
+                                Compétence Active 1
+                            </div>
+                        </div>
+                        <div class="ContenuCA">
+                            <div class="TexteContenuC DescC1">
+                                
+                            </div>
+                        </div>
+                        <div class="TitreCA">
+                            <div class="TexteTitreC">
+                                Compétence Active 2
+                            </div>
+                        </div>
+                        <div class="ContenuCA">
+                            <div class="TexteContenuC DescC2">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="EnsCompDroite">
+                        <div class="TitreCA">
+                            <div class="TexteTitreC">
+                                Compétence Passive 1
+                            </div>
+                        </div>
+                        <div class="ContenuCA">
+                            <div class="TexteContenuC DescC3">
+                                
+                            </div>
+                        </div>
+                        <div class="TitreCA">
+                            <div class="TexteTitreC">
+                                Compétence Passive 2
+                            </div>
+                        </div>
+                        <div class="ContenuCA">
+                            <div class="TexteContenuC DescC4">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="EnsDescExploit">
+                    <div class="DescExploit">
+                        <div class="TitreDescExploit">
+                            <div class="TexteTitreDescExploit">
+                                Description Exploits
+                            </div>
+                        </div>
+                        <div class="ContenuExploit">
+                            <div class="TexteContenuExploit DescC5">
+
+                            </div>
+                        </div>
+                        <div class="ContenuBonusExploit">
+                            <div class="TexteContenuBonusExploit DescC6">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="js/index.js"></script>
+<script src="js/avatar.js"></script>
 </html>

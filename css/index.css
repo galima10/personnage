@@ -1,0 +1,1304 @@
+.EnsTitreBtn{
+    background-color: blueviolet;
+    height: 5em;
+    display: flex;
+    width: 76.95em;
+    border: .5em solid rebeccapurple;
+    border-bottom: transparent;
+    position: relative;
+    top: 1em;
+}
+.Titre1{
+    background-color: aqua;
+    width: 40em;
+}
+.Titre2{
+    background-color: red;
+    width: 20em;
+}
+
+.EnsBtn{
+    width: 76.95em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    border: .5em solid rebeccapurple;
+    border-top: transparent;
+    border-bottom: transparent;
+    position: relative;
+    top: 1em;
+}
+.BtnReinitialiser{
+    width: 5em;
+    height: 3em;
+    cursor: pointer;
+    margin-left: 35em;
+}
+.BtnReinitialiser:hover{
+    background-color: royalblue;
+    transition: .5s;
+    transform: scale(1.05);
+}
+.BtnReinitialiser:not(:hover){
+    background-color: yellow;
+    transition: .5s;
+}
+
+.BtnCache{
+    width: 5em;
+    height: 3em;
+    cursor: pointer;
+    margin-left: 1em;
+}
+.BtnCache:hover{
+    background-color: greenyellow;
+    transition: .5s;
+    transform: scale(1.05);
+}
+.BtnCache:not(:hover){
+    background-color: crimson;
+    transition: .5s;
+}
+
+.FichePerso{
+    transform: scale(1);
+}
+
+.TitreFichePerso{
+    background-color: chocolate;
+    height: 5em;
+    width: 76.95em;
+    position: relative;
+    top: .5em;
+    border: .5em solid rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TexteTitreFichePerso{
+    display: inline;
+    background-color: yellow;
+    font-size: 3.2em;
+    font-weight: bold;
+}
+.BAleaTitre{
+    background-image: url('../images/aléatoire.png');
+    background-size: cover;
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    right: .5em;
+    cursor: pointer;
+}
+.BAleaTitre:hover{
+    background-color: gold;
+    transition: .5s;
+    transform: scale(1.05);
+}
+.BAleaTitre:not(:hover){
+    background-color: blue;
+    transition: .5s;
+}
+.EnsFichePerso{
+    display: flex;
+    background-color: chartreuse;
+    width: 78em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.DescComp{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: blue;
+    width: 31.5em;
+    height: 61.5em;
+    border: .5em solid rebeccapurple;
+    border-left: transparent;
+}
+.ContenuEnsComp{
+    display: flex;
+    width: 32em;
+}
+.EnsCompGauche{
+    width: calc(50% - .5em);
+    border-right: .25em solid white;
+}
+.EnsCompDroite{
+    width: calc(50% - .5em);
+    border-left: .25em solid white;
+}
+.TitreDescComp{
+    width: 100%;
+    height: 5em;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TexteTitreDescComp{
+    display: inline;
+    background-color: yellow;
+    font-size: 2em;
+    font-weight: bold;
+}
+.TitreCA{
+    background-color: red;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+.TexteTitreC{
+    display: inline;
+    background-color: yellow;
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+.ContenuCA{
+    background-color: black;
+    width: 100%;
+    height: 10.75em;
+}
+.TexteContenuC{
+    width: 95%;
+    height: 100%;
+    background-color: yellowgreen;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    color: white;
+    word-wrap: break-word; /* Pour couper les mots longs si nécessaire */
+    overflow-wrap: break-word; /* Une alternative pour une meilleure gestion des espaces */
+    white-space: normal; /* Permet au texte de revenir à la ligne */
+}
+.DescExploit{
+    background-color: aqua;
+    width: 100%;
+    height: 23em;
+}
+.EnsDescExploit{
+    width: 100%;
+    margin-top: 1em;
+}
+.TitreDescExploit{
+    width: 100%;
+    height: 5em;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TexteTitreDescExploit{
+    display: inline;
+    background-color: yellow;
+    font-size: 2em;
+    font-weight: bold;
+}
+.ContenuExploit{
+    margin-top: .5em;
+    background-color: royalblue;
+    width: 100%;
+    height: 10em;
+}
+.ContenuBonusExploit{
+    background-color: red;
+    width: 100%;
+    height: 7em;
+}
+.TexteContenuExploit{
+    font-size: 1.5em;
+    background-color: yellow;
+    width: 95%;
+    height: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word; /* Pour couper les mots longs si nécessaire */
+    overflow-wrap: break-word; /* Une alternative pour une meilleure gestion des espaces */
+    white-space: normal; /* Permet au texte de revenir à la ligne */
+}
+.TexteContenuBonusExploit{
+    font-size: 1.5em;
+    background-color: yellow;
+    width: 95%;
+    height: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word; /* Pour couper les mots longs si nécessaire */
+    overflow-wrap: break-word; /* Une alternative pour une meilleure gestion des espaces */
+    white-space: normal; /* Permet au texte de revenir à la ligne */
+}
+
+
+
+.ContenuFichePerso{
+    background-color: blue;
+    height: 70em;
+    width: 45em;
+    position: relative;
+    border: .5em solid rebeccapurple;
+}
+.Ens1{
+    width: 100%;
+    display: flex;
+    height: 22em;
+}
+.EnsAvatar{
+    background-color: aqua;
+    width: 16em;
+    height: 100%;
+    position: relative;
+}
+.EnsIdentité{
+    background-color: red;
+    width: calc(90% - 16em);
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ContenuIdentité{
+    background-color: chartreuse;
+    width: 90%;
+    height: 90%;
+}
+.EnsNom{
+    background-color: blueviolet;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EnsSexe{
+    background-color: blueviolet;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EnsClasse{
+    background-color: coral;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TexteClasse{
+    background-color: yellow;
+    display: inline;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.EnsAge{
+    background-color: burlywood;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EnsBtnAleatoire{
+    width: 10%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.ContenuBtnAleatoire{
+    background-color: wheat;
+    width: 100%;
+    height: 90%;
+}
+.Ens2{
+    background-color: brown;
+    width: 100%;
+    height: 22em;
+}
+.TitreEns2{
+    background-color: cornflowerblue;
+    width: 95%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TexteTitreEns2{
+    display: inline;
+    font-size: 2em;
+    background-color: yellow;
+    font-weight: bold;
+}
+.SousEns1{
+    background-color: cadetblue;
+    width: 95%;
+    height: calc(95% - 4em);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.SousEnsGauche{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.SousEnsDroite{
+    background-color: chocolate;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.EnsCompActive{
+    background-color: aqua;
+    width: 90%;
+    height: 100%;
+}
+.EnsCompPassive{
+    background-color: aqua;
+    width: 90%;
+    height: 100%;
+}
+.TitreCompActive{
+    position: relative;
+    top: 1em;
+    background-color: azure;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+.TexteTitreCompActive{
+    background-color: yellow;
+    display: inline;
+    font-size: 1.5em;
+}
+.TitreCompPassive{
+    position: relative;
+    top: 1em;
+    background-color: azure;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+.TexteTitreCompPassive{
+    background-color: yellow;
+    display: inline;
+    font-size: 1.5em;
+}
+.ContenuCompActive{
+    position: relative;
+    top: 1em;
+    background-color: cadetblue;
+    width: 100%;
+    height: calc(100% - 4em);
+}
+.ContenuCompPassive{
+    position: relative;
+    top: 1em;
+    background-color: cadetblue;
+    width: 100%;
+    height: calc(100% - 4em);
+}
+.EnsBtnAlea1{
+    background-color: black;
+    width: 10%;
+    height: 100%;
+}
+.Ens3{
+    background-color: yellowgreen;
+    width: 100%;
+    height: 26em;
+}
+.TitreEns3{
+    background-color: cornflowerblue;
+    width: 95%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TexteTitreEns3{
+    display: inline;
+    font-size: 2em;
+    background-color: yellow;
+    font-weight: bold;
+}
+.SousEn2{
+    background-color: cadetblue;
+    width: 95%;
+    height: calc(95% - 4em);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.EnsCaractere{
+    background-color: aqua;
+    width: 90%;
+    height: 100%;
+}
+.EnsPalmares{
+    background-color: aqua;
+    width: 90%;
+    height: 100%;
+}
+.TitreCaractere{
+    position: relative;
+    top: 1em;
+    background-color: azure;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+.TitrePalmares{
+    position: relative;
+    top: 1em;
+    background-color: azure;
+    width: 100%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+.TexteTitreCaractere{
+    background-color: yellow;
+    display: inline;
+    font-size: 1.8em;
+}
+.TexteTitrePalmares{
+    background-color: yellow;
+    display: inline;
+    font-size: 1.5em;
+}
+
+.TitreQualite{
+    background-color: chartreuse;
+    width: 100%;
+    height: 2.5em;
+    position: relative;
+    top: 1.5em;
+    display: flex;
+    align-items: center;
+}
+.TexteTireQualite{
+    display: inline;
+    background-color: yellow;
+    font-size: 1.5em;
+    position: relative;
+    left: 1em;
+}
+.TitreDefaut{
+    background-color: chartreuse;
+    width: 100%;
+    height: 2.5em;
+    position: relative;
+    top: 2em;
+    display: flex;
+    align-items: center;
+}
+.TexteTireDefaut{
+    display: inline;
+    background-color: yellow;
+    font-size: 1.5em;
+    position: relative;
+    left: 1em;
+}
+
+.TitreExploit{
+    background-color: chartreuse;
+    width: 100%;
+    height: 2.5em;
+    position: relative;
+    top: 1.5em;
+    display: flex;
+    align-items: center;
+}
+.TexteTireExploit{
+    display: inline;
+    background-color: yellow;
+    font-size: 1.5em;
+    position: relative;
+    left: 1em;
+}
+.TitreStatut{
+    background-color: chartreuse;
+    width: 100%;
+    height: 2.5em;
+    position: relative;
+    top: 2em;
+    display: flex;
+    align-items: center;
+}
+.TexteTireStatut{
+    display: inline;
+    background-color: yellow;
+    font-size: 1.5em;
+    position: relative;
+    left: 1em;
+}
+
+/* Sliders */
+
+.info{
+    position: absolute;
+    width: 2.2em;
+    height: 2.2em;
+    right: 4em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info:hover{
+    transition: .5s;
+    background-color: wheat;
+    transform: scale(1.05);
+}
+.info:not(:hover){
+    transition: .5s;
+    background-color: aqua;
+}
+.Tinfo{
+    display: inline;
+    font-size: 1.5em;
+    background-color: yellow;
+}
+
+.Btn{
+    position: absolute;
+    width: 2em;
+    height: 3em;
+    opacity: .5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.1);
+}
+.BtnG{
+    left: 0.5em;
+}
+.Btn:hover{
+    transition: .5s;
+    background-color: red;
+}
+.Btn:not(:hover){
+    transition: .5s;
+    background-color: yellowgreen;
+}
+.BtnD{
+    right: 0.5em;
+}
+.flèche{
+    font-size: 2em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.SliderClasse{
+    background-color: white;
+    width: 22em;
+    height: 4em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.Slider1{
+    background-color: black;
+    width: calc(8*22em);
+    height: 4em;
+    display: flex;
+}
+.Slider1_pos1{
+    transform: translateX(0em);
+}
+.Slider1_pos2{
+    transform: translateX(-22em);
+}
+.Slider1_pos3{
+    transform: translateX(-44em);
+}
+.Slider1_pos4{
+    transform: translateX(-66em);
+}
+.Slider1_pos5{
+    transform: translateX(-88em);
+}
+.Slider1_pos6{
+    transform: translateX(-110em);
+}
+.Slider1_pos7{
+    transform: translateX(-132em);
+}
+.Slider1_pos8{
+    transform: translateX(-154em);
+}
+.Slides1{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 22em;
+}
+.TexteSlide{
+    display: inline;
+    color: white;
+    font-size: 2em;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.SliderComp{
+    background-color: white;
+    width: 19em;
+    height: 4em;
+    position: relative;
+    top: 1.5em;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.Slider2{
+    background-color: black;
+    width: calc(5*19em);
+    height: 4em;
+    display: flex;
+}
+.Slider2_pos1{
+    transform: translateX(0em);
+}
+.Slider2_pos2{
+    transform: translateX(-19em);
+}
+.Slider2_pos3{
+    transform: translateX(-38em);
+}
+.Slider2_pos4{
+    transform: translateX(-57em);
+}
+.Slider2_pos5{
+    transform: translateX(-76em);
+}
+.Slides2{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19em;
+}
+.TexteSlide2{
+    width: 9.5em;
+    color: white;
+    font-size: 1.25em;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal;
+}
+
+.Slider3{
+    background-color: black;
+    width: calc(5*19em);
+    height: 4em;
+    display: flex;
+}
+.Slider3_pos1{
+    transform: translateX(0em);
+}
+.Slider3_pos2{
+    transform: translateX(-19em);
+}
+.Slider3_pos3{
+    transform: translateX(-38em);
+}
+.Slider3_pos4{
+    transform: translateX(-57em);
+}
+.Slider3_pos5{
+    transform: translateX(-76em);
+}
+.Slides3{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19em;
+}
+
+.Slider4{
+    background-color: black;
+    width: calc(5*19em);
+    height: 4em;
+    display: flex;
+}
+.Slider4_pos1{
+    transform: translateX(0em);
+}
+.Slider4_pos2{
+    transform: translateX(-19em);
+}
+.Slider4_pos3{
+    transform: translateX(-38em);
+}
+.Slider4_pos4{
+    transform: translateX(-57em);
+}
+.Slider4_pos5{
+    transform: translateX(-76em);
+}
+.Slides4{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19em;
+}
+
+.Slider5{
+    background-color: black;
+    width: calc(5*19em);
+    height: 4em;
+    display: flex;
+}
+.Slider5_pos1{
+    transform: translateX(0em);
+}
+.Slider5_pos2{
+    transform: translateX(-19em);
+}
+.Slider5_pos3{
+    transform: translateX(-38em);
+}
+.Slider5_pos4{
+    transform: translateX(-57em);
+}
+.Slider5_pos5{
+    transform: translateX(-76em);
+}
+.Slides5{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19em;
+}
+
+
+
+
+
+.SliderDesc{
+    background-color: white;
+    width: 19em;
+    height: 4em;
+    position: relative;
+    top: 1.5em;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.Slider6{
+    background-color: black;
+    width: calc(6*19em);
+    height: 4em;
+    display: flex;
+}
+.Slider6_pos1{
+    transform: translateX(0em);
+}
+.Slider6_pos2{
+    transform: translateX(-19em);
+}
+.Slider6_pos3{
+    transform: translateX(-38em);
+}
+.Slider6_pos4{
+    transform: translateX(-57em);
+}
+.Slider6_pos5{
+    transform: translateX(-76em);
+}
+.Slider6_pos6{
+    transform: translateX(-95em);
+}
+.Slides6{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19em;
+}
+
+
+.Slider7{
+    background-color: black;
+    width: calc(6*19em);
+    height: 4em;
+    display: flex;
+}
+.Slider7_pos1{
+    transform: translateX(0em);
+}
+.Slider7_pos2{
+    transform: translateX(-19em);
+}
+.Slider7_pos3{
+    transform: translateX(-38em);
+}
+.Slider7_pos4{
+    transform: translateX(-57em);
+}
+.Slider7_pos5{
+    transform: translateX(-76em);
+}
+.Slider7_pos6{
+    transform: translateX(-95em);
+}
+.Slides7{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19em;
+}
+
+.Slider8{
+    background-color: black;
+    width: calc(5*19em);
+    height: 4em;
+    display: flex;
+}
+.Slider8_pos1{
+    transform: translateX(0em);
+}
+.Slider8_pos2{
+    transform: translateX(-19em);
+}
+.Slider8_pos3{
+    transform: translateX(-38em);
+}
+.Slider8_pos4{
+    transform: translateX(-57em);
+}
+.Slider8_pos5{
+    transform: translateX(-76em);
+}
+.Slides8{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19em;
+}
+
+.Slider9{
+    background-color: black;
+    width: calc(8*19em);
+    height: 4em;
+    display: flex;
+}
+.Slider9_pos1{
+    transform: translateX(0em);
+}
+.Slider9_pos2{
+    transform: translateX(-19em);
+}
+.Slider9_pos3{
+    transform: translateX(-38em);
+}
+.Slider9_pos4{
+    transform: translateX(-57em);
+}
+.Slider9_pos5{
+    transform: translateX(-76em);
+}
+.Slider9_pos6{
+    transform: translateX(-95em);
+}
+.Slider9_pos6{
+    transform: translateX(-114em);
+}
+.Slider9_pos6{
+    transform: translateX(-133em);
+}
+.Slides9{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 19em;
+}
+
+
+/* Boutons aléatoires */
+
+.BAlea1{
+    background-image: url(../images/aléatoire.png);
+    background-size: cover;
+    width: 3.5em;
+    height: 3.5em;
+    cursor: pointer;
+}
+.BAlea1:hover{
+    background-color: blue;
+    transition: .5s;
+    transform: scale(1.05);
+}
+.BAlea1:not(:hover){
+    background-color: aqua;
+    transition: .5s;
+}
+
+.BAlea2{
+    background-image: url(../images/aléatoire.png);
+    background-size: cover;
+    width: 1.8em;
+    height: 1.8em;
+    cursor: pointer;
+}
+.BAlea2:hover{
+    background-color: yellowgreen;
+    transition: .5s;
+    transform: scale(1.05);
+}
+.BAlea2:not(:hover){
+    background-color: red;
+    transition: .5s;
+}
+
+
+
+
+
+
+.none{
+    display: none;
+}
+
+
+
+.ContenuNom{
+    background-color: bisque;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.BtnNomValid{
+    width: 3.7em;
+    height: 1.2em;
+    cursor: pointer;
+    position: absolute;
+    right: .5em;
+    font-size: 1.2em;
+}
+.BtnNomValid:hover{
+    transition: .5s;
+    background-color: blue;
+}
+.BtnNomValid:not(:hover){
+    transition: .5s;
+    background-color: aqua;
+}
+.BtnNomModifier{
+    width: 3.7em;
+    height: 1.2em;
+    cursor: pointer;
+    position: absolute;
+    right: .5em;
+    font-size: 1.2em;
+}
+.BtnNomModifier:hover{
+    background-color: orange;
+    transition: .5s;
+}
+.BtnNomModifier:not(:hover){
+    transition: .5s;
+    background-color: red;
+}
+.InputNom{
+    position: absolute;
+    height: 1em;
+    font-size: 2em;
+    width: 6.5em;
+    left: .5em;
+}
+.TexteNom{
+    position: absolute;
+    background-color: yellow;
+    width: 5.2em;
+    font-size: 2.5em;
+    font-weight: bold;
+    left: .5em;
+    height: 1.1em;
+}
+
+.ChgerAge{
+    background-color: aqua;
+    width: 3em;
+    height: 3.5em;
+    position: absolute;
+    right: 5em;
+}
+.AjouterAge{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+.RetierAge{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+.TexteAge{
+    background-color: yellow;
+    display: inline;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+
+
+.TexteSexe{
+    background-color: yellow;
+    display: inline;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-right: 1em;
+}
+.Homme{
+    width: 3em;
+    height: 3em;
+    margin-right: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Homme:hover{
+    background-color: rgb(30, 102, 236);
+    transition: .5s;
+    border: .2em solid rgb(30, 102, 236);
+}
+.Homme:not(:hover){
+    transition: .5s;
+    background-color: cornflowerblue;
+    border: .2em solid cornflowerblue;
+}
+.Femme {
+    width: 3em;
+    height: 3em;
+    margin-left: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.Femme:hover{
+    background-color: rgb(239, 29, 99);
+    transition: .5s;
+    border: .2em solid rgb(239, 29, 99);
+}
+.Femme:not(:hover){
+    transition: .5s;
+    background-color: palevioletred;
+    border: .2em solid palevioletred;
+}
+.BordureSexe{
+    border: .2em solid white;
+}
+.BordureSexe:hover{
+    transition: .5s;
+    border: .2em solid white;
+}
+.BordureSexe:not(:hover){
+    transition: .5s;
+    border: .2em solid white;
+}
+.SymboleH{
+    font-size: 2em;
+    background-color: yellow;
+    display: inline;
+    font-weight: bold;
+}
+.SymboleF{
+    font-size: 2em;
+    background-color: yellow;
+    display: inline;
+    font-weight: bold;
+}
+
+.CompChoisirClasse{
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.8);
+    width: 100%;
+    height: 48em;
+    z-index: 1;
+    opacity: 1;
+    top: 22em;
+}
+.Texte_CompChoisirClasse{
+    font-size: 4em;
+    background-color: transparent;
+    width: 5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 35%;
+}
+.AvatarChoisirClasse{
+    position: absolute;
+    background-color: rgba(255, 255, 0, 0.8);
+    width: 16em;
+    height: 22em;
+    z-index: 1;
+    opacity: 1;
+    top: 21em;
+    left: 1em;
+}
+.Texte_AvatarChoisirClasse{
+    font-size: 2.5em;
+    background-color: transparent;
+    width: 5em;
+    text-align: center;
+    margin: auto;
+    margin-top: 35%;
+}
+.TexteBtnRndm{
+    position: absolute;
+    background-color: red;
+    width: 11em;
+    height: 1.2em;
+    z-index: 1;
+    right: 5.5em;
+    top: 4.25em;
+    font-size: 2em;
+}
+
+.EnsNumero{
+    position: absolute;
+    background-color: coral;
+    width: 31.5em;
+    height: 8em;
+    right: 0em;
+    top: 6em;
+    border: .5em solid rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TexteNumero{
+    display: inline;
+    font-size: 2.8em;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+
+.EnsPersoAvatar{
+    background-color: blue;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EnsBtnAvatar{
+    background-color: chartreuse;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AvBtnModifier{
+    width: 8em;
+    height: 3em;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.AvBtnModifier:hover{
+    background-color: blue;
+    transition: .5s;
+}
+.AvBtnModifier:not(:hover){
+    background-color: blueviolet;
+    transition: .5s;
+}
+
+.TexteAvBtnModifier{
+    display: inline;
+    font-size: 2em;
+}
+
+.AvBtnAlea{
+    background-image: url('../images/aléatoire.png');
+    background-size: cover;
+    width: 3.5em;
+    height: 3.5em;
+    margin-left: 2.5em;
+    cursor: pointer;
+}
+.AvBtnAlea:hover{
+    background-color: blue;
+    transition: .5s;
+    transform: scale(1.05);
+}
+.AvBtnAlea:not(:hover){
+    background-color: aqua;
+    transition: .5s;
+}
+
+.CadrePersoAvatar{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+}
+
