@@ -8,9 +8,7 @@ var ClickDroite2 = 0
 var ClickDroite3 = 0
 var ClickDroite4 = 0
 
-function random(nb1, nb2){
-    return Math.floor(Math.random() * (nb2 - nb1 + 1)) + nb1
-}
+
 
 // classePerso = {
 //     guerrier: {
@@ -23,6 +21,9 @@ function random(nb1, nb2){
 //     },
 // };
 
+function random(nb1, nb2){
+    return Math.floor(Math.random() * (nb2 - nb1 + 1)) + nb1
+}
 
 classePerso = [
     [
