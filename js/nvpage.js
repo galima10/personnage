@@ -840,8 +840,6 @@ function sexe(){
         document.querySelector(".Femme").classList.add("BordureSexe");
         document.querySelector(".Homme").classList.remove("BordureSexe");
     }
-    document.querySelector(".TexteNom").innerHTML="Nom";
-    document.querySelector(".InputNom").value = "";
 }
 
 document.querySelector(".Homme").addEventListener("click", ()=>{
